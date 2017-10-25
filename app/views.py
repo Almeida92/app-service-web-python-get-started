@@ -43,7 +43,7 @@ def about(request):
         context_instance = RequestContext(request,
         {
             'title':'About',
-            'message':'Equipe do de SI-Devops.',
+            'message':'Equipe SI-Devops.',
             'year':datetime.now().year,
         })
     )
