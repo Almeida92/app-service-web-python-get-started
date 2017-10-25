@@ -29,7 +29,7 @@ def contact(request):
         context_instance = RequestContext(request,
         {
             'title':'Contact',
-            'message':'Your contact page.',
+            'message':'Contato da equipe SI-Devops.',
             'year':datetime.now().year,
         })
     )
@@ -43,7 +43,7 @@ def about(request):
         context_instance = RequestContext(request,
         {
             'title':'About',
-            'message':'Your application description page.',
+            'message':'Equipe do de SI-Devops.',
             'year':datetime.now().year,
         })
     )
